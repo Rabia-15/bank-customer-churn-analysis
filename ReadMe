@@ -1,0 +1,70 @@
+# 🏦 Bank Customer Churn Analysis
+
+## 📌 Project Overview
+
+This project analyzes customer churn in a banking dataset containing 10,000 customer records.
+
+The goal is to identify customer characteristics and segments associated with higher churn and provide useful business insights for customer retention.
+
+## 🛠️ Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SQL
+- Power BI
+
+## 📊 Analysis Performed
+
+### Customer Churn Analysis
+
+- Overall Customer Churn Rate
+- Customer Churn by Geography
+- Customer Churn by Age Group
+- Customer Churn by Gender
+- Customer Churn by Credit Score
+- Customer Churn by Number of Products
+- Customer Churn by Account Balance
+- Customer Churn by Tenure
+- Customer Churn by Active Membership
+
+### SQL Analysis
+
+SQL queries were used to analyze:
+
+- Churn by Geography
+- Churn by Number of Products
+- Churn by Balance Group
+- Churn by Active Membership
+- Churn by Gender and Age Group
+
+## 📈 Power BI Dashboard
+
+A Power BI dashboard was created to visualize important customer churn patterns and provide an interactive view of the analysis.
+
+## 🔍 Key Findings
+
+- The overall customer churn rate is **25%**.
+- France has the highest churn rate among the three geographies.
+- Customers with higher account balances show substantially higher churn in this dataset.
+- Customers with 3 or 4 products have higher churn rates than customers with fewer products.
+- Churn rates are relatively similar across male and female customers.
+
+## 💡 Business Recommendations
+
+- Identify and proactively engage high-balance customers at risk of leaving.
+- Investigate customers holding multiple products for possible dissatisfaction or service issues.
+- Develop targeted retention campaigns for high-risk customer segments.
+- Use customer characteristics and behavioral patterns to improve retention strategies.
+
+## 📁 Project Structure
+
+```text
+bank-customer-churn-analysis/
+│
+├── Bank_Customer_Churn_Analysis.ipynb
+├── bank_customer_churn.xlsx
+├── Bank_Customer_Churn_Dashboard.pbix
+└── README.md
